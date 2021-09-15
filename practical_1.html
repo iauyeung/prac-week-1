@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML prac 1</title>
+    <!-- External CSS-->
+    <link rel="stylesheet" href="practical_1.css">
+
+    <!-- Internal CSS-->
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        td, th {
+            border: 2px solid #808080;
+            text-align: left;
+            padding: 10px;
+        }
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+        tr:nth-child(odd) {
+            background-color: #FFFFFF;
+        }
+        .column {
+            column-count: 4;
+        }
+    </style>
+    <!--Vue Library-->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+</head>
+<body>
+    <h1>Week 1 Practical</h1>
+    <h3>The following is a paragraph of text</h3>
+    <p>
+        This is a normal line of text <br>
+        <b>This is a line of text in bold</b><br>
+        <i>This is a line of text in italics</i><br>
+        <del>This is a line of text with strikethrough</del>
+    </p>
+    <hr>
+    <h3>The following is an image</h3>
+    <img src="https://pbs.twimg.com/media/EcrObVKUwAAN68m.jpg" alt="nyaa" style="center">
+    <hr>
+    <h3>The following is a table</h3>
+    <table style="color:#000000;">
+        <!--inline CSS-->
+        <tr>
+            <th>Name</th>
+            <th>Company</th>
+            <th>Platform</th>
+        </tr>
+        <tr>
+            <td>Nyatasha Kotova Nyanners III</td>
+            <td>VShojo</td>
+            <td>Twitch</td>
+        </tr>
+        <tr>
+            <td>Akai Haato Haachama</td>
+            <td>Hololive 1st Gen</td>
+            <td>Youtube</td>
+        </tr>
+        <tr>
+            <td>Inugami Korone</td>
+            <td>Hololive GAMERS</td>
+            <td>Youtube</td>
+        </tr>
+        <tr>
+            <td>Usada Pekora</td>
+            <td>Hololive 3rd Gen</td>
+            <td>Youtube</td>
+        </tr>
+        <tr>
+            <td>Ninomae Ina'nis</td>
+            <td>Hololive EN 1st Gen</td>
+            <td>Youtube</td>
+        </tr>
+        <tr>
+            <td>Oozora Subaru</td>
+            <td>Hololive 2nd Gen</td>
+            <td>Youtube</td>
+        </tr>
+        <tr>
+            <td>Nakiri Ayame</td>
+            <td>Hololive 2nd Gen</td>
+            <td>Youtube</td>
+        </tr>
+        <tr>
+            <td>Veibae</td>
+            <td>VShojo</td>
+            <td>Twitch</td>
+        </tr>
+        <tr>
+            <td>Ironmouse</td>
+            <td>VShojo</td>
+            <td>Twitch</td>
+        </tr>
+    </table>
+    <hr>
+    <h3>The following is a form</h3>
+    <form action="">
+        <label for="input_1">Input 1:</label><br>
+        <input type="text" id="input_1" name="input_1" value=""><br>
+        <label for="lname">Input 2:</label><br>
+        <input type="text" id="input_2" name="input_2" value=""><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <hr>
+    <h3>The following is a paragraph in 4 columns</h3>
+    <div class="column">
+        Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama
+        Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama
+        Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama
+        Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama
+        Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama
+        Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama
+        Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama
+        Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama
+        Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama
+        Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama Haachamachama
+    </div>
+    <hr>
+    <h3>The following is are buttons</h3>
+    <!--Javascript Functionality-->
+    <button type="button" onclick=alert("heh")>Click Me</button>
+    <button onclick="window.print()">Click Me Too</button>
+    <hr>
+    <h3>The following is Vue To Do List</h3>
+    <!--vue-->
+    <div id="vue_practical_1">
+        <ol>
+            <li v-for="todo in todos">
+                {{ todo.text }}
+            </li>
+        </ol>
+    </div>
+    <!--Javascript file for Vue code-->
+    <script src="practical_1.js"></script>
+</body>
+</html>
